@@ -1,0 +1,25 @@
+let x=[1.,2,3,4]
+let y=x;
+or
+let y=Object.assign([],x);
+
+
+In spread
+
+let y=[...x]
+
+
+....x=1,2,3,4
+[...x]=[1,2,3,4]
+
+...y=5,6,7,8
+[...x...y]=[1.23.4.5677]
+
+Array to args
+
+let x=[1,2,3];
+let func=function(..arg){
+console.log(arg)
+}
+
+func(x)
